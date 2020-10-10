@@ -9,6 +9,7 @@
   "boot": "auto",
   "init": false,
   "host_network": true,
+  "devices": ["/dev/sda1:/dev/sda1:rwm", "/dev/sda2:/dev/sda2:rwm", "/dev/sda3:/dev/sda3:rwm"],
   "map": ["config:rw", "ssl:rw", "addons:rw", "share:rw", "backup:rw", "media:rw"],
   "options": {
     "workgroup": "WORKGROUP",
