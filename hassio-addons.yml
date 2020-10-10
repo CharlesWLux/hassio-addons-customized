@@ -1,0 +1,8 @@
+
+---
+channel: stable
+addons:
+  aircast:
+    repository: hassio-addons/samba
+    target: aircast
+    image: hassio-addons/samba/logo.png
